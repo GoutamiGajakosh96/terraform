@@ -1,9 +1,3 @@
-provider "aws" {
-  region     = "ap-south-2"
-  access_key = ${{secrets.ACCESS_KEY}} 
-  secret_key = ${{secrets.SECRET_ACCESS_KEY}} 
-}
-
 data "aws_ami" "ubuntu" {
   most_recent = true
 
