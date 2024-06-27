@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "github-actions-demo-9876"
-    key    = "github-actions-demo.tfstate"
-    region = "us-east-1"
+    bucket = "goutami123"
+    key    = "goutami123.tfstate"
+    region = "ap-south-2"
   }
 }
